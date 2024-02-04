@@ -1,9 +1,10 @@
-*{font-family: 'Roboto', sans-serif;}
+*{font-family: 'Roboto', sans-serif;
+margin: 0;
+padding: 0;}
 .container {
     width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
-    text-align: center;
 }
 .header {
     border-bottom: 1px solid #ECECEC;
@@ -74,10 +75,10 @@
 }
 .main .container {
     display: flex;
-    width: 1600px;
+    width: 1170px;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 figure {
@@ -85,6 +86,14 @@ figure {
     border: #ECECEC 1px solid;
     width: 370px;
     height: 404px;
+    margin-bottom: 30px;
+}
+.figcaption {
+padding-top: 20px;
+padding-left: 24px;
+}
+figure h1 {
+    padding-bottom: 20px;
 }
 .main-title {
     font-size: 18px;
